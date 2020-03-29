@@ -1,7 +1,12 @@
 *.pyc
+*.pyo
+*.mo
 *~
-/.vscode
 __pycache__
 db.sqlite3
-/static
 .DS_Store
+.vscode
+media/**
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
