@@ -1,1 +1,0 @@
-web: gunicorn fullthrottle_project.wsgi --log-file -
